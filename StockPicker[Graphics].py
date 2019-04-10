@@ -7,11 +7,15 @@ def main():
     win.setCoords(0, 0, 5.0, 5.0)
     win.setBackground(color_rgb(204,238,255))
 
+    #make title of project
+
     cover = Text(Point(2.5,3), "Stock Picker 1.0")
     cover.setSize(36)
     cover.setFill('green')
     cover.setStyle('bold')
     cover.draw(win)
+
+    #make author text
 
     author = Text(Point(2.5,2.5), "Coded By: Bryce Gressani")
     author.setSize(16)
@@ -31,6 +35,8 @@ def main():
     button.setStyle('bold')
     button.draw(win)
     Rectangle(Point(.5, .5), Point(1.5, 1)).draw(win)
+
+    #go to next window
 
     win.getMouse()
     win.close()
@@ -109,6 +115,8 @@ def main():
     button.draw(win)
     Rectangle(Point(.5,.5),Point(1.5,1)).draw(win)
 
+    #go to next window
+
     win.getMouse()
     win.close()
 
@@ -181,6 +189,8 @@ def main():
     button.draw(win)
     Rectangle(Point(.5, .5), Point(1.5, 1)).draw(win)
 
+    #next window
+
     win.getMouse()
     win.close()
 
@@ -193,7 +203,9 @@ def main():
     win.setCoords(0,0,5.0,5.0)
     win.setBackground(color_rgb(204,238,255))
 
-    #Instructions for using stock picker
+#Instructions for using stock picker.................
+
+    #make header
 
     header= Text(topcenter, "Instructions for Using the Stock Picker")
     header.setSize(16)
@@ -426,6 +438,7 @@ def main():
 
     elif(emaanswer==1 and smaanswer==1 and volume>20000 and riskreward>=3 and rsi<=40):
         Text(Point(3.5,.75),"You can buy, but watch for resistance").draw(win)
+        Text(Point(3.5,.6), "An SMA acting as a resistance is concerning")
 
    #ema could be resistance
 
@@ -438,6 +451,8 @@ def main():
     else:
         Text(Point(3.5,.75),"Not yet an answer for this combination of inputs").draw(win)
         Text(Point(3.5, .60), "Enter different values or try a new stock").draw(win)
+
+    #go to next window
 
     win.getMouse()
     win.close()
@@ -455,6 +470,8 @@ def main():
     thanks.setStyle('bold')
     thanks.draw(win)
 
+    #sorry if code doesnt have an answer
+
     sorry = Text(Point(2.5, 2.5), "Sorry if your criteria didn't have an answer!")
     sorry.setSize(16)
     sorry.setStyle('bold')
@@ -464,6 +481,8 @@ def main():
     update.setSize(16)
     update.setStyle('bold')
     update.draw(win)
+
+    #close program
 
     win.getMouse()
     win.close()
