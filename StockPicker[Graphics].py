@@ -1,7 +1,9 @@
 from graphics import *
 def main():
 
-#opener window
+#starting window
+
+    #open window
 
     win = GraphWin("Stock Picker Instructions", 500, 500)
     win.setCoords(0, 0, 5.0, 5.0)
@@ -42,6 +44,8 @@ def main():
     win.close()
 
 #Teach users what the indicators used mean
+
+    #open window
 
     win=GraphWin("Stock Picker Instructions",500,500)
     win.setCoords(0,0,5.0,5.0)
@@ -124,6 +128,8 @@ def main():
 
 #what does each indicator mean
 
+    #open window
+
     win=GraphWin("Stock Picker Instructions",500,500)
     win.setCoords(0,0,5.0,5.0)
     win.setBackground(color_rgb(204,238,255))
@@ -199,6 +205,8 @@ def main():
 
 #Stock Picker Instruction window
 
+    #open window
+
     win=GraphWin("Stock Picker Instructions",500,500)
     win.setCoords(0,0,5.0,5.0)
     win.setBackground(color_rgb(204,238,255))
@@ -251,6 +259,8 @@ def main():
     win.close()
     
 #Actual Stock Picker window
+
+    #open window
 
     win=GraphWin("Stock Picker", 500,500)
     win.setCoords(0,0,5.0,5.0)
@@ -459,6 +469,8 @@ def main():
 
 #Closing window.................................................................................
 
+    #open window
+
     win=GraphWin("Stock Picker", 500,500)
     win.setCoords(0,0,5.0,5.0)
     win.setBackground(color_rgb(204,238,255))
@@ -490,4 +502,4 @@ def main():
 
 main()
 
-change 1
+
